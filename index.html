@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Shopping-cart page</title>
+  </head>
+
+  <body>
+    <nav class="header">
+      <div>
+        <i class="fa fa-check-double" aria-hidden="true"></i>
+        <span>Job Passcard</span>
+      </div>
+      <div>
+        <span>About Us</span>
+        <span>Passcard</span>
+        <span>profile</span>
+      </div>
+      <div>
+        <div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-cart3"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"
+            />
+          </svg>
+          <span>Login</span>
+          <span>|</span>
+          <span>Sign up</span>
+        </div>
+      </div>
+    </nav>
+    <div>
+      <h2 class="text">My cart</h2>
+    </div>
+    <div class="form">
+      <div class="boxes">
+        <div class="boxx">
+          <div class="box1">
+            <div class="icon"><i class="fa-regular fa-trash-can"></i></div>
+            <div class="googledocs">
+              <span><i class="fa-regular fa-file"></i></span>
+              <span>Google Docs</span>
+              <span>Used for business</span>
+            </div>
+            <div class="inbox2">
+              <p>Google Docs</p>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <select class="select" style="width: 80px">
+                  <option value="select">LV 1-3</option>
+                </select>
+              </div>
+              <br />
+              <p>THB 150</p>
+            </div>
+          </div>
+
+          <div class="box1">
+            <div class="icon"><i class="fa-regular fa-trash-can"></i></div>
+            <div class="googledocs">
+              <span><i class="fa-regular fa-file"></i></span>
+              <span>Google Docs</span>
+              <span>Used for business</span>
+            </div>
+            <div class="inbox2">
+              <p>Google Docs</p>
+              <div>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <i class="fa-regular fa-star"></i>
+                <select class="select" style="width: 80px">
+                  <option value="select">LV 1-3</option>
+                </select>
+              </div>
+              <br />
+              <p>THB 150</p>
+            </div>
+          </div>
+        </div>
+        <div class="box2">
+          <p style="text-align: left">Order Info</p><br>
+          <div style="display: flex; justify-content: space-between">
+            <p>Subtotal</p>
+            <p>THB 300</p>
+          </div><br>
+          <div>
+            <div>
+              <i class="fa-regular fa-keyboard"></i>
+              <input style="font-size: 30px;" type="text" placeholder="Promotion code" />
+              <button style="font-size: 30px;">APPLY</button>
+            </div><br>
+          </div>
+          <hr /><br>
+          <div style="display: flex; justify-content: space-between">
+            <p>Total payment</p>
+            <p>THB 300</p>
+          </div><br>
+          <button style="font-size: 30px;">LOGIN TO CHECKOUT</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
